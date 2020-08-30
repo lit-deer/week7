@@ -10832,6 +10832,7 @@ a {
 
 .displayonPhone {
   position: relative;
+  padding-right: 15px;
 }
 
 .displayonPhone .cartNumber {
