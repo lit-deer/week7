@@ -1,0 +1,35 @@
+
+.footer-banner{
+    background: url(../../img/footer.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    .subscribe{
+        h3{
+            color: #8D8D8D;
+            font-weight: bold;
+        }
+        
+    }
+    .email-input{
+        width: 70%;
+        height: 60px;
+        border: 2px solid #916000;
+        border-radius: 4px 0px 0px 4px;
+    }
+    .email-button{
+        width: 30%;
+        border: 2px solid #916000;
+        border-radius: 0px 4px 4px 0px;
+        background-color: #916000;
+    }
+
+}
+.footer{
+    background: #916000;
+    padding: 20px 0;
+    &-menu{
+        a:hover{
+            text-decoration: none;
+        }
+    }
+}
