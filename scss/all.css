@@ -10874,7 +10874,7 @@ a {
   text-decoration: none;
 }
 
-.index-banner {
+.indexBanner {
   background-image: url(../img/banner.png);
   background-size: cover;
   height: 870px;
@@ -10933,6 +10933,23 @@ a {
 
 .second-products h5 {
   font-weight: bold;
+}
+
+.second-products .soldOut {
+  position: relative;
+}
+
+.second-products .soldOut h4 {
+  position: absolute;
+  top: 50%;
+  left: 37.5%;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.second-products .card-filter {
+  position: absolute;
+  left: 0px;
 }
 
 .bottleRecycling a {

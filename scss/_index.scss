@@ -1,4 +1,4 @@
-.index-banner{
+.indexBanner{
     background-image: url(../img/banner.png);
     background-size: cover;
     height: 870px;
@@ -51,6 +51,20 @@
     }
     h5{
         font-weight: bold;
+    }
+    .soldOut{
+        position: relative;
+        h4{
+            position: absolute;
+            top: 50%;
+            left: 37.5%;
+            font-weight: bold;
+            color: #ffffff;
+        }
+    }
+    .card-filter{
+        position: absolute;
+        left: 0px;
     }
 }
 

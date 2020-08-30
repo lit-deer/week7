@@ -12,22 +12,29 @@
     <div class="container">
         <div class="row d-flex justify-content-between">
             <h1><a href="index.html" class="logo"></a></h1>
-            <ul class="menu list-unstyled d-none d-md-flex align-items-center mb-0">
-                <li class="mr-3"><a href="#" class="d-block"><img src="img/tshirt.svg" alt="Product" class="d-none d-md-inline-block align-center mr-2 mb-1">Product</a></li>
-                <li class="mr-3"><a href="#" class="d-block"><img src="img/user-alt.svg" alt="log in" class="d-none d-md-inline-block align-center mr-2 mb-1">log in</a></li>
-                <li class="mr-3"><a href="#" class="d-block"><img src="img/heart.svg" alt="Wishlist" class="d-none d-md-inline-block align-center mr-2 mb-1">Wishlist</a></li>
-                <li class=""><a href="" class="d-block"><img src="img/shopping-cart.svg" alt="Cart" class="d-none d-md-inline-block align-center mr-2 mb-1">Cart(3)</a></li>
-                <li class="d-md-none">
-                    <a href="#" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-dark"></i></a>
-                </li>
+            <ul class="menu list-unstyled d-flex align-items-center mb-0">
+                <li class="d-none d-md-flex align-items-center mr-3"><a href="#" class="d-block"><img src="img/tshirt.svg" alt="Product" class="d-none d-md-inline-block align-center mr-2 mb-1">Product</a></li>
+                <li class="d-none d-md-flex align-items-center mr-3"><a href="#" class="d-block"><img src="img/user-alt.svg" alt="log in" class="d-none d-md-inline-block align-center mr-2 mb-1">log in</a></li>
+                <li class="d-none d-md-flex align-items-center mr-3"><a href="#" class="d-block"><img src="img/heart.svg" alt="Wishlist" class="d-none d-md-inline-block align-center mr-2 mb-1">Wishlist</a></li>
+                <li class="d-flex align-items-center"><a href="#" class="d-block"><img src="img/shopping-cart.svg" alt="Cart" class="d-none d-md-inline-block align-center mr-2 mb-1"><p class="d-none d-md-inline-block align-center mr-2 mb-1">Cart(3)</p></a></li>
+                
+                
             </ul>
         </div>
-       
+    </div>
 
+    <div class="d-md-none collapse" id="navbarToggleExternalContent" style="">   
+        <ul class="nav list-unstyled flex-column bg-gray mb-0">
+            <li class="nav-item border-bottom border-white text-center"><a href="product.html" class="nav-link text-white py-4 ">Product</a></li>
+            <li class="nav-item border-bottom border-white text-center"><a href="" class="nav-link text-white py-4 ">Wishlist</a></li>
+            <li class="nav-item border-bottom border-white text-center"><a href="" class="nav-link text-white py-4 ">Blog</a></li>
+            <li class="nav-item border-bottom border-white text-center"><a href="" class="nav-link text-white py-4 ">Contact</a></li>
+            <li class="nav-item  text-center"><a href="login.html" class="nav-link text-white py-4 ">log in</a></li>
+        </ul>
     </div>
 
     <!---Banner--->
-    <div class="index-banner mb-5">
+    <div class="indexBanner mb-5">
         <div class="container-fluid mb-md-60">
             <div class="container">
                 <div class="row justify-content-center justify-content-xl-end">
@@ -43,7 +50,7 @@
     </div>
 
     <!---Perfume--->
-    <div class="container first-products mb-60">
+    <div class="container first-products">
         <!---perfume1--->
         <div class="d-md-flex flex-row-reverse">
             <div class="col-12 col-md-6 px-0">
@@ -98,7 +105,7 @@
                     <h4 class="mb-1 mb-lg-3">3.<br>Critical percentage of planned maintenance</h5>
                     <p>Calculating the critical percentage of planned maintenance will help you prioritize the most important operations that should be performed immediately.</p>
                 </div>
-                <button type="button" class="py-3 btn btn-outline-dark rounded-pill">Plan a free online training</button>
+                <button type="button" class="px-3 py-3 btn btn-outline-dark rounded-pill">Plan a free online training</button>
             </div>
             
         </div>
@@ -109,7 +116,8 @@
         <div class="container second-products mb-5">
             <div class="row py-5">
                 <div class="card col-12 col-md-4 bg-transparent border-0">
-                    <img src="img/gray-1.png" class="card-img-top" alt="">
+                    <a href="#"><img src="img/gray-1.png" class="card-img-top" alt=""></a>
+                    
                     <div class="card-body">
                         <h5 class="card-title">Poppy & Barley</h5>
                         <p class="card-text">Jo Malone</p>
@@ -119,7 +127,8 @@
                     </div>
                 </div>
                 <div class="card col-12 col-md-4 bg-transparent border-0">
-                    <img src="img/gray-2.png" class="card-img-top" alt="">
+                    <a href="#"><img src="img/gray-2.png" class="card-img-top" alt=""></a>
+                    
                     <div class="card-body">
                         <h5 class="card-title">Body Wash</h5>
                         <p class="card-text">Curology</p>
@@ -127,7 +136,12 @@
                     </div>
                 </div>
                 <div class="card col-12 col-md-4 bg-transparent border-0">
-                    <img src="img/gray-3.png" class="card-img-top" alt="">
+                    <div class="soldOut">
+                        <a href="#"><img class="card-filter card-img-top img-fluid" src="img/gray.svg" alt=""></a>
+                        <img class="card-img-top img-fluid" src="img/gray-3.png" alt="">
+                        
+                        <h4>Sold Out</h4>
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">Apple Cider Vinegar Capsule</h5>
                         <p class="card-text">Tonik</p>
