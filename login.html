@@ -5,24 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D'Perfume</title>
     <link rel="stylesheet" href="scss/all.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
 </head>
 <body>
     <!---Header--->
     <div class="container">
-        <div class="row d-flex justify-content-between">
+        <div class="row d-flex justify-content-around justify-content-sm-between">
             <h1><a href="index.html" class="logo"></a></h1>
+            <!---手機 menu--->
+            <div class="d-md-none d-flex align-items-center">
+                <div class="displayonPhone">
+                    <a href="#"><img src="img/shopping-cart.svg" alt="Cart"><span class="cartNumber">3</span></a>
+                </div>
+                    
+                <!---navbar
+                
+                <nav class="navbar navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>--->
+                    
+            </div>
+            <!---PC menu--->
             <ul class="menu list-unstyled d-flex align-items-center mb-0">
                 <li class="d-none d-md-flex align-items-center mr-3"><a href="#" class="d-block"><img src="img/tshirt.svg" alt="Product" class="d-none d-md-inline-block align-center mr-2 mb-1">Product</a></li>
                 <li class="d-none d-md-flex align-items-center mr-3"><a href="login.html" class="d-block"><img src="img/user-alt.svg" alt="log in" class="d-none d-md-inline-block align-center mr-2 mb-1">log in</a></li>
                 <li class="d-none d-md-flex align-items-center mr-3"><a href="#" class="d-block"><img src="img/heart.svg" alt="Wishlist" class="d-none d-md-inline-block align-center mr-2 mb-1">Wishlist</a></li>
-                <li class="d-flex align-items-center"><a href="#" class="d-block"><img src="img/shopping-cart.svg" alt="Cart" class="d-none d-md-inline-block align-center mr-2 mb-1"><p class="d-none d-md-inline-block align-center mr-2 mb-1">Cart(3)</p></a></li>
-                
-                
+                <li class="d-none d-md-flex align-items-center"><a href="#" class="d-block"><img src="img/shopping-cart.svg" alt="Cart" class="d-none d-md-inline-block align-center mr-2 mb-1">Cart(3)</a></li>
             </ul>
+
         </div>
     </div>
-
+    
+    <!---手機 下拉式
+    <ul class="collapse" id="navbarToggleExternalContent">
+        <li class=""><a href="#">Product</a></li>
+        <li><a href="#">Wishlist</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="login.html">Log in</a></li>--->
+    </ul>
    
     <!---Brands--->
     <div class="brands container-fluid d-none d-sm-block mb-5">
