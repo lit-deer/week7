@@ -3,6 +3,7 @@
     background: url(../img/footer.png) no-repeat center;
     background-size: cover;
     height: 600px;
+    
     .subscribe{
         h3{
             color: #8D8D8D;
@@ -21,6 +22,12 @@
         border: 2px solid #916000;
         border-radius: 0px 4px 4px 0px;
         background-color: #916000;
+    }
+
+    @include phone(){
+        background: url(../img/footer-phone.png) no-repeat center;
+        background-size: cover;
+        height: 600px;
     }
 
 }

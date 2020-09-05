@@ -10881,6 +10881,14 @@ a {
   background-color: #916000;
 }
 
+@media (max-width: 767px) {
+  .footer-banner {
+    background: url(../img/footer-phone.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+  }
+}
+
 .footer {
   background: #916000;
   padding: 20px 0;
@@ -10894,6 +10902,14 @@ a {
   background-image: url(../img/banner.png);
   background-size: cover;
   height: 870px;
+}
+
+@media (max-width: 767px) {
+  .indexBanner {
+    background-image: url(../img/banner-phone.png);
+    background-size: cover;
+    height: 480px;
+  }
 }
 
 .text-white {
@@ -10918,6 +10934,16 @@ a {
   font-size: 1.2rem;
 }
 
+@media (max-width: 767px) {
+  .banner-content {
+    margin-top: 101px;
+  }
+  .banner-content a {
+    width: 100%;
+    font-size: 28px;
+  }
+}
+
 .first-products a {
   color: #AC8A46;
 }
@@ -10933,6 +10959,13 @@ a {
 
 .first-products .training button {
   font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .first-products .training button {
+    width: 100%;
+    font-size: 20px;
+  }
 }
 
 .bg-gray {
@@ -10979,6 +11012,7 @@ a {
 
 .bottleRecycling h3 {
   font-weight: bold;
+  font-size: 32px;
 }
 
 .brands {

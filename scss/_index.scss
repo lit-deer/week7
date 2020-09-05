@@ -2,6 +2,11 @@
     background-image: url(../img/banner.png);
     background-size: cover;
     height: 870px;
+    @include phone(){
+        background-image: url(../img/banner-phone.png);
+        background-size: cover;
+        height: 480px;
+    }
 }
 
 .text-white{
@@ -21,6 +26,14 @@
     p{
         font-size: 1.2rem;
     }
+
+    @include phone(){
+        margin-top: 101px;
+        a{
+            width: 100%;
+            font-size: 28px;
+        }
+    }
 }
 
 .first-products{
@@ -37,6 +50,10 @@
     .training{
         button{
             font-weight: bold;
+            @include phone(){
+                width: 100%;
+                font-size: 20px;
+            }
         }
         
     }
@@ -79,5 +96,6 @@
     }
     h3{
         font-weight: bold;
+        font-size: 32px;
     }
 }
